@@ -5,19 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.artdevs.meetingslog</groupId>
-        <artifactId>meetings-log-project</artifactId>
+        <groupId>org.artdevs.projectname</groupId>
+        <artifactId>projectname-project</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.artdevs.meetingslog.facades</groupId>
-    <artifactId>meetings-log-facades</artifactId>
+    <groupId>org.artdevs.projectname.facades</groupId>
+    <artifactId>projectname-facades</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
-            <groupId>org.artdevs.meetingslog.services</groupId>
-            <artifactId>meetings-log-services</artifactId>
+            <groupId>org.artdevs.projectname.services</groupId>
+            <artifactId>projectname-services</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

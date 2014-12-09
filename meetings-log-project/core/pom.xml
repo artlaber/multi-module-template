@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.artdevs.meetingslog</groupId>
-        <artifactId>meetings-log-project</artifactId>
+        <groupId>org.artdevs.projectname</groupId>
+        <artifactId>projectname-project</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.artdevs.meetingslog.core</groupId>
-    <artifactId>meetings-log-core</artifactId>
+    <groupId>org.artdevs.projectname.core</groupId>
+    <artifactId>projectname-core</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     

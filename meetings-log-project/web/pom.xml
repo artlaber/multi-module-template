@@ -5,26 +5,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.artdevs.meetingslog</groupId>
-        <artifactId>meetings-log-project</artifactId>
+        <groupId>org.artdevs.projectname</groupId>
+        <artifactId>projectname-project</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>org.artdevs.meetingslog.web</groupId>
-    <artifactId>meetings-log-web</artifactId>
+    <groupId>org.artdevs.projectname.web</groupId>
+    <artifactId>projectname-web</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>war</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>org.artdevs.meetingslog.facades</groupId>
-            <artifactId>meetings-log-facades</artifactId>
+            <groupId>org.artdevs.projectname.facades</groupId>
+            <artifactId>projectname-facades</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.artdevs.meetingslog.core</groupId>
-            <artifactId>meetings-log-core</artifactId>
+            <groupId>org.artdevs.projectname.core</groupId>
+            <artifactId>projectname-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
