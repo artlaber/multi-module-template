@@ -1,0 +1,4 @@
+meetingslog
+===========
+
+Meetings log project
