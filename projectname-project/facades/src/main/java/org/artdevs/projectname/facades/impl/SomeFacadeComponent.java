@@ -1,6 +1,6 @@
-package org.artdevs.meetingslog.facades.impl;
+package org.artdevs.projectname.facades.impl;
 
-import org.artdevs.meetingslog.facades.FacadeComponent;
+import org.artdevs.projectname.facades.FacadeComponent;
 import org.springframework.stereotype.Component;
 
 /**

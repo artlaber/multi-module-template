@@ -1,8 +1,8 @@
-package org.artdevs.meetingslog.web.controllers;
+package org.artdevs.projectname.web.controllers;
 
-import org.artdevs.meetingslog.core.CoreComponent;
-import org.artdevs.meetingslog.facades.FacadeComponent;
-import org.artdevs.meetingslog.services.ServiceComponent;
+import org.artdevs.projectname.core.CoreComponent;
+import org.artdevs.projectname.facades.FacadeComponent;
+import org.artdevs.projectname.services.ServiceComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

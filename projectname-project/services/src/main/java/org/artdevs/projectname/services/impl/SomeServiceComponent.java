@@ -1,6 +1,6 @@
-package org.artdevs.meetingslog.services.impl;
+package org.artdevs.projectname.services.impl;
 
-import org.artdevs.meetingslog.services.ServiceComponent;
+import org.artdevs.projectname.services.ServiceComponent;
 import org.springframework.stereotype.Component;
 
 /**

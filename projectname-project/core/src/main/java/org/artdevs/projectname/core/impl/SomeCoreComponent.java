@@ -1,6 +1,6 @@
-package org.artdevs.meetingslog.core.impl;
+package org.artdevs.projectname.core.impl;
 
-import org.artdevs.meetingslog.core.CoreComponent;
+import org.artdevs.projectname.core.CoreComponent;
 import org.springframework.stereotype.Component;
 
 /**

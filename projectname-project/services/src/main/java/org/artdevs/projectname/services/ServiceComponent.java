@@ -1,4 +1,4 @@
-package org.artdevs.meetingslog.services;
+package org.artdevs.projectname.services;
 
 /**
  * Created by Artem L.V. on 09.12.14.
