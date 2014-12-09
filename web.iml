@@ -9,6 +9,9 @@
         <webroots>
           <root url="file://$MODULE_DIR$/meetings-log-project/web/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/meetings-log-project/web/src/main/java" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
@@ -20,6 +23,7 @@
     <output-test url="file://$MODULE_DIR$/meetings-log-project/web/target/test-classes" />
     <content url="file://$MODULE_DIR$/meetings-log-project/web">
       <sourceFolder url="file://$MODULE_DIR$/meetings-log-project/web/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/meetings-log-project/web/src/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/meetings-log-project/web/target" />
     </content>
     <orderEntry type="inheritedJdk" />

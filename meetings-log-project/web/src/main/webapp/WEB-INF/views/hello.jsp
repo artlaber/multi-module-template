@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>this is hello :)</h1>
+<p>${customMessage}</p>
 </body>
 </html>

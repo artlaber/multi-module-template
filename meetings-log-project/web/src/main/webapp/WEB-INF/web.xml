@@ -6,12 +6,29 @@
 
 	<display-name>Meetings Log Web Application</display-name>
 
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			<!--service layer context-->
+			classpath*:/META-INF/config/meetingslog-*-config.xml
+		</param-value>
+	</context-param>
+
 	<servlet>
 		<servlet-name>meetingslog</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/config/meetingslog-servlet.xml</param-value>
+			<param-value>
+				<!--servlet context-->
+				/WEB-INF/config/meetingslog-servlet.xml
+				<!--other custom contexts-->
+				classpath*:/META-INF/custom-config/*-spring.xml
+			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
@@ -20,14 +37,5 @@
 		<servlet-name>meetingslog</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-
-	<context-param>
-		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/config/meetingslog-servlet.xml</param-value>
-	</context-param>
-
-	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
 
 </web-app>
