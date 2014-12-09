@@ -1,4 +1,4 @@
-meetingslog
+Multi-Module template project
 ===========
 
-Meetings log project
+Project to create multi-module structure using maven/spring-context/spring-mvc
