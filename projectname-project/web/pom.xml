@@ -23,10 +23,23 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.artdevs.projectname.core</groupId>
-            <artifactId>projectname-core</artifactId>
+            <groupId>org.artdevs.projectname.services</groupId>
+            <artifactId>projectname-services</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-    
+
+    <build>
+        <finalName>ProjectName-Web</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <configuration>
+                    <scanIntervalSeconds>5</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

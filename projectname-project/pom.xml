@@ -12,9 +12,9 @@
 
   <modules>
     <module>core</module>
-    <module>web</module>
     <module>services</module>
     <module>facades</module>
+    <module>web</module>
   </modules>
 
   <!--Project specific properties with versions, db params etc...-->
@@ -142,5 +142,19 @@
     </repository>
   </repositories>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <configuration>
+            <source>1.7</source>
+            <target>1.7</target>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
 
 </project>
