@@ -6,12 +6,6 @@
 target/*
 target
 
-
-**projectname-core.iml
-projectname-facades.iml
-projectname-services.iml
-projectname-web.iml
-
 ### Java template
 *.class
 
