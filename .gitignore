@@ -7,6 +7,11 @@ target/*
 target
 
 
+**projectname-core.iml
+projectname-facades.iml
+projectname-services.iml
+projectname-web.iml
+
 ### Java template
 *.class
 
@@ -66,6 +71,7 @@ local.properties
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
 *.iml
+**/*.iml
 
 ## Directory-based project format:
 .idea/
